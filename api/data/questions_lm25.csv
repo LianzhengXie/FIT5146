@@ -1,0 +1,21 @@
+id,category_id,category_order,question_type,dependency_questions,min_max,image_name,options,text
+1,1,1,level,,,,,"During the past seven days, how would you rate your sleep quality overall? Consider how many hours of sleep you got, how easily you fell asleep, how often you woke during the night (except to go to the bathroom), how often you woke up earlier than you had to in the morning, and how refreshing your sleep was. Please mark only one box."
+2,2,1,num,,0-7,,,"On average, how many days per week do you engage in moderate-intensity physical activity?  This is an activity that requires some effort, but where a conversation is possible (e.g. a brisk walk)."
+3,2,2,num,,0-600,,,"On average, how many minutes per day do you exercise at this intensity?"
+4,3,1,single_answer,,,,I am comfortable with my present weight;I would like to lose a couple of kilograms;I feel I have a significant amount of weight to lose (more than 5kg);I would like to gain weight,How do you feel about your weight?
+5,3,2,bool,,,,,Have you tried to lose or gain weight in the past?
+6,4,1,single_answer,,,serves_fruit.png,1;2;3;4;5;6+;I don't eat fruit,How many serves (see below) of fruit do you usually eat each day? Each of the above represents a single serve of fruits and provides about 350 kilojoules
+7,4,2,single_answer,,,serves_vegetable.png,1;2;3;4;5;6+;I don't eat vegetables,How many serves (see below) of vegetables do you usually eat each day? Each of the above represents a single serve of vegetables and provides 100-350 kilojoules.
+8,4,3,single_answer,,,serves_food.png,1;2;3;4;5;6+;I don't eat these foods,"In an average week, how many serves (see below) of discretionary foods do you usually eat each day? Each of the above represents a single serve of discretionary foods and provides 500-600 kilojoules."
+9,4,4,single_answer,,,serves_beverage.png,1;2;3;4;5;6+;I don't drink these beverages,"In an average week, how many serves (see below) of soft drinks, cordials, sports drinks, caffeinated energy drinks or other sugar-sweetened beverages do you usually drink each day? Each of the above represents a single serve of sugar sweetened beverages and provides 500-600 kilojoules."
+10,5,1,bool,,,,,"Over the past two weeks, have you felt down, depressed, or hopeless?"
+11,5,2,bool,true|12,,,,"Over the past two weeks, have you felt little interest or pleasure in doing things?"
+12,5,3,single_answer,,,,"Yes;Yes, but not today;No","If you answered yes to one of the above, is this something with which you would like help?"
+13,6,1,bool,,,,,Do you smoke cigarettes?
+14,6,2,bool,true|16;17,,,,"Have you ever smoked? If no, go to question 18."
+15,6,3,single_answer,,,,Within 5 minutes;6-30 minutes;31-60 minutes;After 60 minutes;Not a current smoker,"On the days you smoke, how soon after you wake up, do you have your first cigarette?"
+16,6,4,single_answer,,,,31 or more; 21-30;11-20;10 or fewer; Not a current smoker,How many cigarettes do you typically smoke per day?
+17,6,5,single_answer,,,,Never;Monthly or less;2-4 times per month;2-3 times per week;4+ times per week,How often do you have a drink containing alcohol?
+18,6,6,single_answer,,,,1-2;3-4;5-6;7-9;10+,How many drinks containing alcohol do you have in a typical day when you are drinking?
+19,6,7,single_answer,,,standard_drinks.png,Never;Less than monthly;Monthly;Weekly;Daily or almost daily,How often do you have 4 or more standard drinks (see below) on one occasion?
+20,6,8,single_answer,,,,Never;Monthly or less;2-4 times per month;2-3 times per week;4+ per week,"How often do you use recreational drugs (cannabis, ecstasy, cocaine, meth) or misuse prescription drugs?"

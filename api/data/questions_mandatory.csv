@@ -1,0 +1,3 @@
+id,question_type,text,options
+1,single_answer,"In general, how would you rate your overall health?","Excellent, Very good, Good, Fair, Poor"
+2,category_rank,"What are the most important lifestyle areas you wish to make changes in? Rate from 1-10 each category.","Food, Exercise, Stress, Sleep, Addiction, Relationship"
