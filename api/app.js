@@ -35,5 +35,5 @@ app.use('/api/question_mandatory', require('./routes/question_mandatory.routes')
 app.use('/api/reminder', require('./routes/reminder.routes'));
 
 app.use('/api/admin', require('./routes/admin.routes'));
-
+app.use('/api/whatsapp', require('./routes/whatsapp.routes'));
 module.exports = app;
